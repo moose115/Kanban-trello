@@ -1,0 +1,13 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+
+li { list-style: none; }
+
+.column-container .card { text-align: center; margin: 1%; background-color: blueviolet; padding: 10px; }
+
+ul { min-height: 50px; }
+
+li { display: inline-block; width: 50%; }
+
+.column-container { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.column-container > div { display: inline-block; width: 30%; background-color: lightgray; margin: 1%; padding: 10px; -ms-flex-align: start; align-items: flex-start; }
